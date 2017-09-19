@@ -1,0 +1,50 @@
+<!--<h1>MySQL Results:</h1>
+-->
+
+<form>
+    <fieldset>
+        <legend>To view a specific table click that table's button:</legend>
+        <input type="submit" id="Class Display" value="Class Table">
+        <input type="submit" id="Book Display" value="Book Table">
+        <input type="submit" id="Spell Display" value="Spell Table">
+        <input type="submit" id="Weapon Display" value="Weapon Table">
+        <input type="submit" id="Class_Weapon Display" value="Class-Weapon Table">
+        <input type="submit" id="Class_Spell Display" value="Class-Spell Table">
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>To add a table click its Submit button, or to edit an existing entry click that entry's edit button. Note that for the non-relationship tables the editable information begins on Column 2:</legend>
+        <label for="addName">Column1:</label>
+        <input type="text" name="Column1" id="Column1">
+        <label for="addReps">Column2:</label>
+        <input type="text" name="Column2" id="Column2">
+        <label for="addWeight">Column3:</label>
+        <input type="text" name="Column3" id="Column3">
+        <label for="addDate">Column4:</label>
+        <input type="text" name="Column4" id="Column4">
+        <label for="addDate">Column5:</label>
+        <input type="text" name="Column5" id="Column5">
+        <input type="submit" id="Class Submit" value="Class Submit">
+        <input type="submit" id="Book Submit" value="Book Submit">
+        <input type="submit" id="Spell Submit" value="Spell Submit">
+        <input type="submit" id="Weapon Submit" value="Weapon Submit">
+        <input type="submit" id="Class_Weapon Submit" value="Class_Weapon Submit">
+        <input type="submit" id="Class_Spell Submit" value="Class_Spell Submit">
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>To view the available weapons or spells for a class enter the class ID and click the appropriate button:</legend>
+        <label for="addName">Class ID:</label>
+        <input type="text" name="Class ID" id="Class_ID">
+        <input type="submit" id="Class_Weapons_view" value="View available weapons">
+        <input type="submit" id="Class_Spells_view" value="View available spells">
+    </fieldset>
+</form>
+
+<div class="jsTable"></div>
+
+<script src="client.js"></script>
